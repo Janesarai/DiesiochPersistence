@@ -29,6 +29,10 @@ class MainActivity : AppCompatActivity() {
         binding.btMostrar.setOnClickListener {
             mostrarDatos()
         }
+
+        binding.btBorrar.setOnClickListener {
+            borrarDatos()
+        }
     }
 
 
@@ -52,6 +56,19 @@ class MainActivity : AppCompatActivity() {
         binding.tvEntero.text = entero.toString()
         binding.switch1.isChecked = boleano
 
+    }
+    private fun borrarDatos(){
+        binding.tvEntero.text =""
+        binding.tvDecimal.text =""
+        binding.tvTexto.text =""
+
+        binding.edEntero.text.clear()
+        binding.edDecimal.text.clear()
+        binding.edTexto.text.clear()
+        binding.switch1.isChecked = false
+
+
+        asharePreferences.edit().clear().apply()
     }
 
 
