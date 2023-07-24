@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">DiesiochPersistence</string>
+    <string name="edEntero">Ingrese Entero</string>
+    <string name="edTexto">Ingrese Texto</string>
+    <string name="edDecimal">Ingrese Decimal</string>
+    <string name="btBorrar">Borrar</string>
+    <string name="btGuardar">Guardar</string>
 </resources>
