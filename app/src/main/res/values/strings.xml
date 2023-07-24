@@ -5,4 +5,5 @@
     <string name="edDecimal">Ingrese Decimal</string>
     <string name="btBorrar">Borrar</string>
     <string name="btGuardar">Guardar</string>
+    <string name="btMostrar">Mostrar</string>
 </resources>
